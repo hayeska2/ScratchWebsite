@@ -937,6 +937,10 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-qTkzRZLJNu .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1030,6 +1034,10 @@ section.lazy-placeholder:after {
   .cid-qTkzRZLJNu .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-qTkzRZLJNu .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
+  }
+  .cid-qTkzRZLJNu .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-qTkzRZLJNu .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
   }
   .cid-qTkzRZLJNu .navbar-collapse.collapsing .navbar-buttons,
   .cid-qTkzRZLJNu .navbar-collapse.show .navbar-buttons {
@@ -1146,12 +1154,12 @@ section.lazy-placeholder:after {
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
-  background: #55b4d4;
+  background: #333333;
   transition: none;
   min-height: 77px;
 }
 .cid-qTkzRZLJNu .navbar-dropdown.bg-color.transparent.opened {
-  background: #55b4d4;
+  background: #333333;
 }
 .cid-qTkzRZLJNu a {
   font-style: normal;
@@ -1235,7 +1243,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-qTkzRZLJNu .dropdown .dropdown-menu {
-  background: #55b4d4;
+  background: #333333;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1548,7 +1556,7 @@ section.lazy-placeholder:after {
 .cid-rHQ8vMBkBY {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-color: #55b4d4;
 }
 .cid-rHQ8vMBkBY .card-img {
   background-color: #fff;
@@ -1566,7 +1574,7 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-rHQ8vMBkBY .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-rHQ8vMBkBY .card-wrapper {
   height: 100%;
@@ -1583,6 +1591,20 @@ section.lazy-placeholder:after {
     max-width: 20%;
     padding: 15px;
     -webkit-flex: 0 0 20%;
+  }
+}
+.cid-rI2hjmaKNP {
+  background: #149dcc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-rI2hjmaKNP .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rI2hjmaKNP .video-block {
+    width: 100% !important;
   }
 }
 .cid-qTkzRZLJNu .navbar {
@@ -1812,6 +1834,10 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-qTkzRZLJNu .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1906,6 +1932,10 @@ section.lazy-placeholder:after {
   .cid-qTkzRZLJNu .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-qTkzRZLJNu .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-qTkzRZLJNu .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-qTkzRZLJNu .navbar-collapse.collapsing .navbar-buttons,
   .cid-qTkzRZLJNu .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1989,6 +2019,9 @@ section.lazy-placeholder:after {
 .cid-rI24n9i1Z2 blockquote {
   color: #767676;
 }
+.cid-rI24n9i1Z2 .mbr-text {
+  color: #232323;
+}
 .cid-rI22D8FmnT {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1999,7 +2032,7 @@ section.lazy-placeholder:after {
 }
 .cid-rI22D8FmnT .card-box {
   padding: 2rem;
-  background-color: #ffffff;
+  background-color: #149dcc;
 }
 .cid-rI22D8FmnT h4 {
   font-weight: 500;
@@ -2010,7 +2043,7 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-rI22D8FmnT .mbr-text {
-  color: #767676;
+  color: #232323;
 }
 .cid-rI22D8FmnT .card-wrapper {
   height: 100%;
